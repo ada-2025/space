@@ -1,0 +1,80 @@
+html {
+    color: rgb(62, 112, 162);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    background-image: url("images/space_background.webp");
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(220, 220, 220, 0.9);
+    padding: 10px 50px 10px 100px;
+    /* padding: TOP RIGHT BOTTOM LEFT */
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;    
+    background-color: rgb(98, 13, 122);
+    box-shadow: 2px 2px 2px gray;
+}
+
+h1 {
+    color: rgb(98, 13, 122);
+    font: bold 50px sans-serif;
+}
+
+h2 {
+    color: midnightblue;
+    font-family: sans-serif;
+}
+
+
+strong {
+    color: rgb(59, 30, 65);
+}
+
+img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(128, 0, 64);
+    
+    box-shadow: 5px 5px 5px 2px rgba(41, 35, 31, 1);
+    
+}
+
+.logo {
+    box-shadow: none;
+    border-color: rgb(128, 0, 64);
+}
+
+section {
+    margin-top: 80px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: bold 14px "Arial Black", Gadget, sans-serif;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(126, 30, 65);
+    background-color: rgba(126, 30, 65, 1);
+}
